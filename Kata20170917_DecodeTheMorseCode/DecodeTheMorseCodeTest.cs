@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Kata20170917_DecodeTheMorseCode
@@ -11,6 +12,12 @@ namespace Kata20170917_DecodeTheMorseCode
         public void Test_input_A()
         {
             MorseCodeDecoderShouldBe("A", ".-");
+        }
+
+        [TestMethod]
+        public void Test_input_AB()
+        {
+            MorseCodeDecoderShouldBe("AB", ".- -...");
         }
 
         private static void MorseCodeDecoderShouldBe(string expected, string morseCode)
@@ -42,7 +49,9 @@ namespace Kata20170917_DecodeTheMorseCode
 
         public string Decode(string morseCode)
         {
-            return MorseCode[morseCode];
+            var morseCodeCharArray = morseCode.Split(' ');
+
+            return string.Concat(morseCodeCharArray.Select(c => MorseCode[c]));
         }
     }
 }
