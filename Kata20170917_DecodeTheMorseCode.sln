@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26906.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata20170917_DecodeTheMorseCode", "Kata20170917_DecodeTheMorseCode\Kata20170917_DecodeTheMorseCode.csproj", "{AEB860F8-9EAB-4230-915F-5A5732827B5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB860F8-9EAB-4230-915F-5A5732827B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB860F8-9EAB-4230-915F-5A5732827B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB860F8-9EAB-4230-915F-5A5732827B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB860F8-9EAB-4230-915F-5A5732827B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7537D493-9A3F-4A14-8257-B9A05CB04FC0}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 19a3307f-8e7d-4b3f-9fdb-00ba57259278
+	EndGlobalSection
+EndGlobal
