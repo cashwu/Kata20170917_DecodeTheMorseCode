@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Kata20170917_DecodeTheMorseCode
 {
     [TestClass]
-    public class UnitTest1
+    public class DecodeTheMorseCodeTest
     {
         [TestMethod]
         public void TestMethod1()
