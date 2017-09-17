@@ -32,6 +32,12 @@ namespace Kata20170917_DecodeTheMorseCode
             MorseCodeDecoderShouldBe("ABC A", ".- -... -.-.   .-");
         }
 
+        [TestMethod]
+        public void Test_input_HEY_JUDE()
+        {
+            MorseCodeDecoderShouldBe("HEY JUDE", ".... . -.--   .--- ..- -.. .");
+        }
+
         private static void MorseCodeDecoderShouldBe(string expected, string morseCode)
         {
             var morseCodeDecoder = new MorseCodeDecoder();
